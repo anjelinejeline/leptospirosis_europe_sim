@@ -1,0 +1,17 @@
+# 1. Clear all objects from the workspace
+rm(list = ls())
+
+# 2. Clear all plots (if in RStudio)
+if (interactive()) dev.off(dev.list()["RStudioGD"])
+
+# 3. Clear the console
+cat("\014")  # equivalent to Ctrl+L in RStudio
+
+# 4. Detach all non-base packages
+basic.packages <- c("stats","graphics","grDevices","utils","datasets","methods","base")
+loaded.packages <- setdiff(.packages(), basic.packages)
+if (length(loaded.packages) > 0) {
+  for (pkg in loaded.packages) {
+    detach(paste0("package:", pkg), character.only = TRUE, unload = TRUE)
+  }
+}
