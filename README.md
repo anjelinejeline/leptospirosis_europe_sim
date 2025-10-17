@@ -9,19 +9,19 @@ The repository is divided as follows:
 -   Input
 -   Scripts
 
-It assumes that the results will be saved in a folder called Output and relative subfolders. For any issues with the code please contact [Angela Fanelli](Angela.FANELLI@ec.europa.eu)
+It assumes that the results will be saved in a folder called Output and relative subfolders. For any issues with the code please contact [Angela Fanelli](Angela.FANELLI@ec.europa.eu).
 
 ## Data Availability
 
--   **Human cases**: Available upon request from [The European Surveillance System (TESSy)](https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy).\
--   **Monthly temperature**: Retrieved from the [Copernicus Climate Data Store – ERA5](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means).\
--   **Forest–human nexus**: Accessible via the code provided by [Massaro et al. (2025)](https://www.nature.com/articles/s43247-025-02514-8), available on [GitHub](https://github.com/emanuelemassaro/Forest_Human_Nexus).\
--   **Mammal species richness**: Available from the [IUCN Red List Spatial Dataset](https://www.iucnredlist.org/resources/spatial-data-download), processed following the approach developed by [the Knowledge Centre for Biodiversity – Global Biodiversity Data (KCBD-GBD; ex-DOPA) unit of the JRC](https://www.mdpi.com/2073-445X/13/9/1506).\
--   **Population data**: Sourced from the [Global Human Settlement Layer (GHSL)](https://human-settlement.emergency.copernicus.eu/).\
--   **SPEI data**: Obtained from the [SPEIbase v.2.10](https://digital.csic.es/handle/10261/364137) developed by the Climatology and Climate Services Laboratory.\
+-   **Human cases**: Available upon request from [The European Surveillance System (TESSy)](https://www.ecdc.europa.eu/en/publications-data/european-surveillance-system-tessy).
+-   **Monthly temperature**: Retrieved from the [Copernicus Climate Data Store – ERA5](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels-monthly-means).
+-   **Forest–human nexus**: Accessible via the code provided by [Massaro et al. (2025)](https://www.nature.com/articles/s43247-025-02514-8), available on [GitHub](https://github.com/emanuelemassaro/Forest_Human_Nexus).
+-   **Mammal species richness**: Available from the [IUCN Red List Spatial Dataset](https://www.iucnredlist.org/resources/spatial-data-download), processed following the approach developed by [the Knowledge Centre for Biodiversity – Global Biodiversity Data (KCBD-GBD; ex-DOPA) unit of the JRC](https://www.mdpi.com/2073-445X/13/9/1506).
+-   **Population data**: Sourced from the [Global Human Settlement Layer (GHSL)](https://human-settlement.emergency.copernicus.eu/).
+-   **SPEI data**: Obtained from the [SPEIbase v.2.10](https://digital.csic.es/handle/10261/364137) developed by the Climatology and Climate Services Laboratory.
 -   **Future climate projections**:
-    -   **SPEI**: From the [NEX-GDDP-CMIP6 dataset](https://www.ciesin.columbia.edu/data/globaldrought/) via NASA’s Socioeconomic Data and Applications Center (SEDAC).\
-    -   **Temperature**: From the [NASA Center for Climate Simulation (NCCS)](https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp).\
+    -   **SPEI**: From the [NEX-GDDP-CMIP6 dataset](https://www.ciesin.columbia.edu/data/globaldrought/) via NASA’s Socioeconomic Data and Applications Center (SEDAC).
+    -   **Temperature**: From the [NASA Center for Climate Simulation (NCCS)](https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp).
 -   **Healthcare capacity**: Number of hospital beds per country obtained from [EUROSTAT](https://ec.europa.eu/eurostat/databrowser/view/HLTH_RS_BDS1/default/table?lang=en).
 
 ## Files in this repository
